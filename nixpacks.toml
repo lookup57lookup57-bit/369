@@ -1,0 +1,5 @@
+[phases.setup]
+aptPkgs = ['libjpeg-dev', 'libpng-dev', 'libfreetype6-dev', 'liblcms2-dev', 'libopenjp2-7-dev', 'libtiff5-dev', 'libwebp-dev', 'libharfbuzz-dev', 'libfribidi-dev']
+
+[phases.install]
+cmds = ['pip install --upgrade pip', 'pip install -r requirements.txt']
