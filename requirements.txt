@@ -1,16 +1,7 @@
-# Telegram Bot Framework
 telethon>=1.28.5
-
-# HTTP Requests (core functionality)
 requests>=2.31.0
 aiohttp>=3.8.5
-
-# Async File Operations
 aiofiles>=23.2.0
-
-# SSL Certificate (for Railway HTTPS requests)
 certifi>=2023.7.22
-
-# Keep-alive server (for Railway health checks)
 flask>=2.3.3
 gunicorn>=21.2.0
