@@ -1,7 +1,19 @@
-telethon>=1.28.5
-requests>=2.31.0
-aiohttp>=3.8.5
-aiofiles>=23.2.0
-certifi>=2023.7.22
-flask>=2.3.3
-gunicorn>=21.2.0
+# Telegram Bot Framework
+telethon==1.28.5
+
+# HTTP Requests
+requests==2.31.0
+aiohttp==3.8.5
+
+# Async File Operations
+aiofiles==23.2.0
+
+# SSL Certificate
+certifi==2023.7.22
+
+# Keep-alive server for Railway
+flask==2.3.3
+gunicorn==21.2.0
+
+# ONLY if you need image processing - pinned version for Python 3.11
+Pillow==10.0.1
