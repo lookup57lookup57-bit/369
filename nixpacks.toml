@@ -1,5 +1,9 @@
 [phases.setup]
-aptPkgs = ['libjpeg-dev', 'libpng-dev', 'libfreetype6-dev', 'liblcms2-dev', 'libopenjp2-7-dev', 'libtiff5-dev', 'libwebp-dev', 'libharfbuzz-dev', 'libfribidi-dev']
+aptPkgs = [
+  "libjpeg-dev", "libpng-dev", "libwebp-dev", "zlib1g-dev",
+  "libtiff5-dev", "libfreetype6-dev", "liblcms2-dev",
+  "libopenjp2-7-dev", "libimagequant-dev", "libxcb1-dev"
+]
 
-[phases.install]
-cmds = ['pip install --upgrade pip', 'pip install -r requirements.txt']
+[phases.build]
+cmds = ["pip install --no-cache-dir -r requirements.txt"]
