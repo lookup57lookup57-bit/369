@@ -6,4 +6,4 @@ aptPkgs = [
 ]
 
 [phases.build]
-cmds = ["pip install --no-cache-dir -r requirements.txt"]
+cmds = ["pip install --no-cache-dir --no-build-isolation -r requirements.txt"]
