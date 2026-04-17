@@ -7,11 +7,10 @@ rsa==4.9
 requests==2.32.3
 certifi==2024.12.14
 
-# Build & Pillow fix (Railway ke liye zaroori)
-Pillow==10.4.0
-setuptools==75.1.0
-wheel==0.45.1
-pip==25.0.1
+# Pillow with Python 3.13 compatible version + build tools
+Pillow>=11.1.0
+setuptools>=76.0.0
+wheel>=0.45.1
+pip>=25.0.1
 
-# Pre-built wheels for Linux
 --extra-index-url https://www.piwheels.org/simple
