@@ -7,10 +7,10 @@ rsa==4.9
 requests==2.32.3
 certifi==2024.12.14
 
-# Pillow with Python 3.13 compatible version + build tools
-Pillow>=11.1.0
-setuptools>=76.0.0
-wheel>=0.45.1
-pip>=25.0.1
+# Pillow + build tools (Python 3.11 compatible)
+Pillow==11.1.0
+setuptools==76.3.0
+wheel==0.45.1
+pip==25.0.1
 
 --extra-index-url https://www.piwheels.org/simple
