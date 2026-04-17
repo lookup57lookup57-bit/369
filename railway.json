@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildpacks": ["python"],
+    "nixpacks": {
+      "pkgs": ["libjpeg", "libpng", "libwebp", "zlib", "libtiff", "freetype", "lcms2", "openjpeg", "libimagequant", "libxcb"]
+    }
+  }
+}
